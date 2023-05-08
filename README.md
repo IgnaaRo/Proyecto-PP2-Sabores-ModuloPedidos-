@@ -34,3 +34,7 @@ Dentro de la comida rapida tendremos:
   - Chica
   - Mediana
   - Grande
+
+___Lading Page___
+
+https://www.figma.com/file/oflpvLNWcId8Y49FnTUfFh/PP2-Proyecto-Sabores?type=design&node-id=0%3A1&t=wuvoHtjjrbrWfIyF-1
