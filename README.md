@@ -16,7 +16,6 @@ Dentro de la comida rapida tendremos:
 - Empanadas
   - Carne
   - Jamon y queso
-  - Choclo
   - Atun
 - Pizzas
   - Cuatro quesos
