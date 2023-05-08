@@ -1,6 +1,6 @@
 # Proyecto-PP2-Sabores-
 
-Integrantes___
+___Integrantes___
 
 ⚪ Agustin Moyano
 ⚪ Gianfranco Marcucci
