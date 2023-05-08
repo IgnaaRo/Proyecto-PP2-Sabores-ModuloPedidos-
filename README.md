@@ -2,10 +2,10 @@
 
 ___Integrantes___
 
-⚪ Agustin Moyano
-⚪ Gianfranco Marcucci
-⚪ Ignacio Romero
-⚪ Ignacio Ruiz
+Agustin Moyano
+// Gianfranco Marcucci
+// Ignacio Romero
+// Ignacio Ruiz
 
 ___Tematica___
 
