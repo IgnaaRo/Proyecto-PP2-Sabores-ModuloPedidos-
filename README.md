@@ -22,10 +22,15 @@ Dentro de la comida rapida tendremos:
   - Muzzarella
   - Napolitana
 - Hamburguesas
-  - 
+  - Completa
+  - Simple
 - Panchos
-  -
+  - Completo
+  - Simple
 - Lomos
-  -
+  - Lomo pizza
+  - Lomo completo
 - Papas fritas
-  -
+  - Chica
+  - Mediana
+  - Grande
