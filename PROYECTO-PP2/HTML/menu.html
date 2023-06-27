@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<head>
+  <title>Menú</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #F5F5F5;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+  .header-image {
+    width: 100%;
+    display: block;
+    margin-top: -10px; /* Ajusta el valor negativo según sea necesario para eliminar el espacio entre la imagen y el navbar */
+  }
+  
+  .header-image {
+    width: 100%;
+    display: block;
+    margin-top: -10px; /* Ajusta el valor negativo según sea necesario para eliminar el espacio entre la imagen y el navbar */
+  }
+  
+  .fa {
+    color: white;
+    font-size: 18px;
+  }
+  
+  .image-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    padding: 20px;
+  }
+  
+  .navbar {
+    background-color: red;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar .left-items,
+  .navbar .right-items {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .right-items {
+    margin-left: auto;
+  }
+  
+  .navbar button {
+    margin: 0 5px;
+    padding: 8px 12px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: transform 0.3s; 
+  }
+  
+  .navbar button:hover {
+    transform: scale(1.1);
+  }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    
+
+    header {
+      background-color: #FF5050;
+      padding: 10px;
+      color: black;
+      display: flex;
+      align-items: center;
+    }
+
+
+    .menu-icon {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: black;
+      margin-right: 10px;
+    }
+
+    .navbar {
+      background-color: #FF5050;
+      padding: 10px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .navbar-item {
+      color: black;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+
+    .cart-icon {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: black;
+      margin-left: 10px;
+    }
+
+    .cart-title {
+      text-align: center;
+      color: black;
+      font-family: 'Inter';
+      font-style: italic;
+      color: #000000;
+
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+    }
+
+    .menu-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+    }
+
+    .menu-item {
+      width: 500px;
+      padding: 10px;
+      margin: 10px;
+      border: 1px solid #C6C2C2;
+      background-color: #FFFFFF;
+      display: flex;
+    }
+
+    .menu-item img {
+      width: 200px;
+      height: 200px;
+      margin-right: 10px;
+    }
+
+    .menu-item-description {
+      flex-grow: 1;
+      background-color: #6D6A6A;
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+
+    .menu-item-title {
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    .add-to-cart-btn {
+      background-color: #66BB6A;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    .delete-to-cart-btn {
+      background-color: red;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+
+    .cart-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: red;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 490px; 
+  right: 10px; 
+}
+
+.cart-button i {
+  color: white;
+  font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+  }
+   
+   </style>
+</head>
+<body>
+
+  <div class="image-container">
+    <img src="../img/inicio.png" alt="Imagen arriba del navbar">
+    <div class="overlay">
+      <h1 class="overlay-title">Sabores Comida Rápida</h1>
+    </div>
+  </div>
+  
+
+<nav class="navbar">
+<div class="left-items">
+  <button><a href="../HTML/inicio.html">Inicio</a></button>
+  <button>Sobre nosotros</button>
+  <button>Contacto</button>
+</div>
+<div class="right-items">
+  <button>Registrarse</button>
+  <button>Iniciar Sesion</button>
+</div>
+</nav>
+<br>
+
+<input class="busqueda-item" type="search" placeholder="Busqueda">
+
+  <div class="container">
+
+    </nav>
+    <h1 class="cart-title">Menú</h1>
+    <div class="menu-container">
+        
+      <div class="menu-item">
+        <img src="https://media.istockphoto.com/id/938742222/es/foto/pizza-de-pepperoni-cheesy.jpg?s=612x612&w=0&k=20&c=GUwbHCrMdnpHGmTzHVPk2U9flWi3WgMVdfdOeBMU00E=" alt="Opción 1">
+        <div class="menu-item-description">
+          <div class="menu-item-title"></div>
+          <p><b> Pizza Muzzarella</b>
+          <p>Muzarella, aceite de oliva y oreganos</p>
+          <br>
+          <button class="add-to-cart-btn">Agregar al Carrito</button>
+          <button class="delete-to-cart-btn">Eliminar del Carrito</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="https://www.shutterstock.com/image-photo/air-fryer-roast-potatoes-on-260nw-2167451753.jpg" alt="Opción 2">
+        <div class="menu-item-description">
+          <div class="menu-item-title"></div>
+          <p> <b>Papas Fritas</b> <br>
+            Porciónes:<br>
+           -Chica<br>
+           -Mediana<br>
+           -Grande
+           <br>
+           <b>Papas Chedar</b><br>
+           Papas fritas con cheedar de 400gr
+           
+           
+           </p>
+          <button class="add-to-cart-btn">Agregar al Carrito</button>
+          <button class="delete-to-cart-btn">Eliminar del Carrito</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="https://tn.com.ar/resizer/9a6ETMhiIKAMGwYxwuiw4lhQ7H8=/767x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/77ST57RMRJBWDNLNCKVY5AKLD4.jpg" alt="Opción 3">
+        <div class="menu-item-description">
+          <div class="menu-item-title"></div>
+          
+          <p><b>Hamburguesa Completa</b><br>
+
+            <p>Medallon de carne,Condimentos , Tomate, Lechuga ,Queso, Jamon, Huevo.</p>
+            <br>
+          <button class="add-to-cart-btn">Agregar al Carrito</button>
+          <button class="delete-to-cart-btn">Eliminar del Carrito</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="https://www.tasteatlas.com/images/dishes/9a3391698eec41c2890cd9575d00405e.jpg" alt="Opción 4">
+        <div class="menu-item-description">
+          <div class="menu-item-title"></div>
+          <p><b>Lomo Completo</b><br>
+
+            <p>Lomo,Condimentos,Tomate, Lechuga,Queso,Jamon,Huevo,Morron.</p>
+            
+            <br>
+          <button class="add-to-cart-btn">Agregar al Carrito</button>
+          <button class="delete-to-cart-btn">Eliminar del Carrito</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="https://www.clarin.com/img/2015/03/20/rkiDP4CQx_1256x620.jpg" alt="Opción 5">
+        <div class="menu-item-description">
+          <div class="menu-item-title"></div>
+          <p><b>Pancho Completo</b></p>
+
+            <p>Salchicha,Condimentos, Queso, Jamon,Papitas.</p>
+
+            <br>
+
+          <button class="add-to-cart-btn">Agregar al Carrito</button>
+          <button class="delete-to-cart-btn">Eliminar del Carrito</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="https://cdn7.kiwilimon.com/recetaimagen/69/640x640/11549.jpg.webp" alt="Opción 6">
+        <div class="menu-item-description">
+          <div class="menu-item-title"></div>
+          <p><b>Empanadas</b>
+<br>
+            -Atun<br>
+            -Carne<br>
+            -Pollo<br>
+            -Jamon y Queso</p>
+          <button class="add-to-cart-btn">Agregar al Carrito</button>
+          <button class="delete-to-cart-btn">Eliminar del Carrito</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a class="cart-button" href="../HTML/carrito.html">
+    <i class="fas fa-shopping-cart"></i>
+  </a>
+
+</body>
+</html>
+
+
+

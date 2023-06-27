@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header-image {
+  width: 100%;
+  display: block;
+  margin-top: -10px; /* Ajusta el valor negativo según sea necesario para eliminar el espacio entre la imagen y el navbar */
+}
+
+.header-image {
+  width: 100%;
+  display: block;
+  margin-top: -10px; /* Ajusta el valor negativo según sea necesario para eliminar el espacio entre la imagen y el navbar */
+}
+
+.fa {
+  color: white;
+  font-size: 18px;
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: red;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: red;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .left-items,
+.navbar .right-items {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .right-items {
+  margin-left: auto;
+}
+
+.navbar button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: transform 0.3s; 
+}
+
+.navbar button:hover {
+  transform: scale(1.1);
+}
+
+  .mis-pedidos{
+    background-color: gray;
+    display: flex;
+    width: 350px;
+    height: 38px;
+    margin: auto;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .busqueda-item{
+    display: flex;
+    justify-content: center;
+  }
+
+  .contenedor{
+    position: relative;
+    display: flex;
+    text-align: center;
+}
+ 
+
+.comida-rapida{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Bienvenida{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+.boton1{
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+
+.boton2{
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.cart-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: red;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 490px; /* Ajusta la posición vertical según sea necesario */
+  right: 10px; /* Ajusta la posición horizontal según sea necesario */
+}
+
+.cart-button i {
+  color: white;
+  font-size: 18px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}

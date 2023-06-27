@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/styleGrilla.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Grilla de Pedidos</title>
+</head>
+<body>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        .actions {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .actions button {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<header>
+<div class="image-container">
+    <img src="../img/pexels-alexy-almond-3758133 1.png" alt="Imagen arriba del navbar">
+    <div class="overlay">
+      <h1 class="overlay-title">Sabores Comida Rápida</h1>
+    </div>
+  </div>
+</header> 
+
+<nav class="navbar">
+<div class="left-items">
+    <button><a href="../HTML/menu.html">Menú</a></button>
+  <button>Sobre nosotros</button>
+  <button>Contacto</button>
+</div>
+<div class="right-items">
+  <button>Registrarse</button>
+  <button>Iniciar Sesion</button>
+</div>
+</nav>
+<br>
+
+<input class="busqueda-item" type="search" placeholder="Busqueda">
+
+<h1 class="mis-pedidos">MIS PEDIDOS</h1>
+
+<br>
+
+<body>
+    <table>
+        <tr>
+            <th>N° de Pedido</th>
+            <th>Total del Pedido</th>
+            <th>Nombre del Pedido</th>
+            <th>Fecha</th>
+            <th>Hora</th>
+            <th>Detalles del Producto</th>
+        </tr>
+        <tr>
+            <td>332</td>
+            <td>$550</td>
+            <td>Pancho Completo</td>
+            <td>01/05/2023</td>
+            <td>13:45hs</td>
+            <td>
+                <button class="boton1" >Ver Detalle</button>
+                <button class="boton2" >Descargar Factura</button>
+            </td>
+        </tr>
+        <tr>
+            <td>338</td>
+            <td>$2100</td>
+            <td>Lomo Completo</td>
+            <td>12/05/2023</td>
+            <td>21:27hs</td>
+            <td>
+                <button class="boton1" >Ver Detalle</button>
+                <button class="boton2" >Descargar Factura</button>
+            </td>
+        </tr>
+        <tr>
+            <td>343</td>
+            <td>$1400</td>
+            <td>Hamburguesa Completa</td>
+            <td>21/05/2023</td>
+            <td>12:39hs</td>
+            <td>
+                <button class="boton1" >Ver Detalle</button>
+                <button class="boton2" >Descargar Factura</button>
+            </td>
+        </tr>
+        <tr>
+            <td>361</td>
+            <td>$1600</td>
+            <td>Pizza Muzzarella</td>
+            <td>30/05/2023</td>
+            <td>23:21hs</td>
+            <td >
+                <button class="boton1" >Ver Detalle</button>
+                <button class="boton2" >Descargar Factura</button>
+            </td>
+        </tr>
+    </table>
+
+    <a class="cart-button" href="./carrito.html">
+        <i class="fas fa-shopping-cart"></i>
+      </a>
+</body>
+</html>

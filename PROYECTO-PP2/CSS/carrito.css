@@ -1,0 +1,240 @@
+
+
+.popup-options {
+    font-weight: bold;
+  }
+  
+  .popup-option-btn {
+    background-color: red;
+    color: white;
+  }
+  
+  .pickup-button {
+    background-color: red;
+    color: white;
+  }
+  
+  #pickup-label {
+    font-weight: bold;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  header {
+    background-color: #FF5050;
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-icon,
+  .cart-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    background-color: #FF5050;
+    border-radius: 50%;
+  }
+  
+  .menu-icon img,
+  .cart-icon img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .cart-title {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .cart-container {
+    margin: 20px;
+    flex-grow: 1;
+    background-color: #E1DBDB;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .product {
+    display: flex;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #C6C2C2;
+    padding-bottom: 10px;
+    background-color: #C6C2C2;
+  }
+  
+  .product img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .product-details {
+    flex-grow: 1;
+  }
+  
+  .product-name {
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .product-price {
+    color: black;
+    font-size: 16px;
+  }
+  
+  .product-quantity {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .quantity-btn {
+    background-color: #FF5050;
+    color: black;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0 5px;
+    border-radius: 3px;
+  }
+  
+  .quantity-btn:hover {
+    background-color: #FF7777;
+  }
+  
+  .delete-btn {
+    color: #FF5050;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  footer {
+    background-color: #FF5050;
+    color: white;
+    padding: 10px;
+    text-align: right;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .total-price {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .confirm-btn {
+    background-color: #FF7777;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px auto 0;
+    display: block;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .confirm-btn:hover {
+    background-color: #FF9999;
+  }
+  
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    display: none;
+  }
+  
+  .popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .popup-content h2 {
+    margin-top: 0;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .popup-content p {
+    margin-bottom: 20px;
+  }
+  
+  .popup-content button {
+    background-color: #f80000;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .popup-content button:hover {
+    background-color: #990000;
+  }
+  
+  .popup-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .popup-options button {
+    margin: 0 10px;
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+  
+  .boton-verde{
+    background-color: rgb(64, 240, 64);
+  }
+  
+  .boton-azul{
+    background-color: rgb(106, 209, 243);
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .contador-css{
+    border-radius: 5px;
+    width: 35px;
+  }

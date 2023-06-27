@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Carrito de Compras</title>
+  <link rel="stylesheet" type="text/css" href="../CSS/carrito.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="menu-icon">
+        <img src="../img/menu.png" alt="menu">
+      </div>
+      <h1 class="cart-title">Carrito de Compras</h1>
+      <div class="cart-icon">
+        <img src="../img/carrito.png" alt="carrito">
+      </div>
+    </header>
+
+    <div class="cart-container">
+      <div class="product">
+        <img src="https://img.freepik.com/fotos-premium/pizza-pequena-caja-carton_105718-4013.jpg" alt="Pizza">
+        <div class="product-details">
+          <div class="product-name">Pizza Muzzarella</div>
+          <div class="product-price">$700</div>
+          <div class="product-quantity">
+            <input class="contador-css" type="number" value="1">
+          </div>
+        </div>
+        <button class="delete-btn">Eliminar</button>
+      </div>
+
+      <div class="product">
+        <img src="https://www.quepasaweb.com.ar/wp-content/uploads/2021/10/pancho-doble-3.jpg" alt="Panchos">
+        <div class="product-details">
+          <div class="product-name">Pancho completo</div>
+          <div class="product-price">$500</div>
+          <div class="product-quantity">
+            <input class="contador-css" type="number" value="1">
+          </div>
+        </div>
+        <button class="delete-btn">Eliminar</button>
+      </div>
+    </div>
+
+    <footer>
+      <div class="total-price">Total: $1200</div>
+      <button class="confirm-btn" onclick="showPopup()">Confirmar Pedido</button>
+    </footer>
+
+    <div class="popup-overlay" id="popupOverlay">
+      <div class="popup-content">
+        <h2>¡Confirmando Pedido!</h2>
+        <p>¿Cómo desea retirar el pedido?</p>
+        <p><b>10% Descuento si retira por el local</b></p>
+        <div class="popup-options">
+          <button class="popup-option-btn" onclick="showAddressForm()">Domicilio</button>
+          <button class="popup-option-btn" onclick="showLocalPickup()">Retiro por el local</button>
+        </div>
+        <div id="address-form" style="display: none;">
+          <label for="address">Dirección:</label>
+          <input type="text" id="address">
+          <label for="phone">Teléfono:</label>
+          <input type="text" id="phone">
+          <div class="payment-options">
+            <span id="paymentMethodText">Seleccione un método de pago</span>
+            <br>
+            <button class="boton-blue" onclick="showPaymentButtons('Mercado Pago')">Mercado Pago</button>
+          </div>
+        </div>
+        <div id="local-pickup" style="display: none;">
+          <div class="payment-options">
+            <span id="paymentMethodText">Seleccione un método de pago</span>
+            <button class="boton-verde"  onclick="showPaymentButtons('Efectivo')">Efectivo</button>
+            <button class="boton-blue" onclick="showPaymentButtons('Mercado Pago')">Mercado Pago</button>
+            <p><b>10% Descuento por retirar en el local</b></p>
+          </div>
+        </div>
+        <div id="orderSummaryOverlay" style="display: none;">
+          <h3>Detalles de la Orden</h3>
+          <div class="order-details">
+            <div class="product">
+              <img src="https://img.freepik.com/fotos-premium/pizza-pequena-caja-carton_105718-4013.jpg" alt="Pizza">
+              <div class="product-details">
+                <div class="product-name">Pizza Muzzarella</div>
+                <div class="product-price">$700</div>
+              </div>
+            </div>
+            <div class="product">
+              <img src="https://www.quepasaweb.com.ar/wp-content/uploads/2021/10/pancho-doble-3.jpg" alt="Panchos">
+              <div class="product-details">
+                <div class="product-name">Pancho completo</div>
+                <div class="product-price">$500</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <p>Monto Total</p>
+            </div>
+          </div>
+          <div id="orderSummaryDetails"></div>
+          <p id="orderTotal"></p>
+          <p id="paymentMethod"></p>
+          <button class="continue-btn">Finalizar compra</button>
+          <button class="close-btn" onclick="hidePopup()" id="closeButton">Cerrar</button>
+        </div>
+      </div>
+    </div>    
+  </div>
+
+  <script src="carrito.js"></script>
+  <script>
+    function showPopup() {
+      resetPopup();
+      document.getElementById("popupOverlay").style.display = "block";
+    }
+
+    function hidePopup() {
+      resetPopup();
+      document.getElementById("popupOverlay").style.display = "none";
+    }
+
+    function showAddressForm() {
+      resetPopup();
+      document.getElementById("address-form").style.display = "block";
+      document.getElementById("orderSummaryOverlay").style.display = "block";
+    }
+
+    function showLocalPickup() {
+      resetPopup();
+      document.getElementById("local-pickup").style.display = "block";
+      document.getElementById("orderSummaryOverlay").style.display = "block";
+    }
+
+    function showPaymentButtons(paymentMethod) {
+      document.getElementById("paymentMethod").textContent = "Método de pago seleccionado: " + paymentMethod;
+      document.getElementById("orderSummaryOverlay").style.display = "block";
+    }
+
+    function resetPopup() {
+      document.getElementById("address-form").style.display = "none";
+      document.getElementById("local-pickup").style.display = "none";
+      document.getElementById("orderSummaryOverlay").style.display = "none";
+    }
+
+        
+  </script>
+</body>
+</html>

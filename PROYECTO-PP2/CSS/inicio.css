@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: red;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar .left-items,
+  .navbar .right-items {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .right-items {
+    margin-left: auto;
+  }
+  
+  .navbar button {
+    margin: 0 5px;
+    padding: 8px 12px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: transform 0.3s; /* Añade una transición suave */
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar button:hover {
+    transform: scale(1.1); /* Aplica un zoom del 10% al pasar el cursor */
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .menu-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .menu-item {
+    text-align: center;
+    margin: 20px;
+    position: relative; /* Añade posición relativa para colocar el recuadro */
+  }
+  
+  .menu-item img {
+    width: 100%;
+    max-width: 250px; /* Ajusta el tamaño máximo de la imagen según sea necesario */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+    display: block;
+    border: 2px solid black; /* Añade el recuadro negro a las imágenes */
+    transition: transform 0.2s; /* Añade una transición suave */
+    z-index: 2;
+  }
+  
+  
+  .menu-item:hover img {
+    transform: scale(1.1); /* Aplica un zoom del 10% al pasar el cursor */
+  }
+
+  
+  .menu-title {
+    color: white;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Agrega el delineado en negro */
+  }
+  
+  
+  .search-bar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(149, 148, 148);
+    width: 120px;
+    position: absolute;
+    top: 490px; /* Ajusta la posición vertical según sea necesario */
+    left: 0;
+    margin-right: 10px; /* Ajusta el valor según sea necesario para el espacio deseado */
+  }
+  
+  .navbar {
+    position: relative;
+  }
+  
+  .content {
+    margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+  }
+  
+  .menu-group {
+    margin-top: 0px; /* Ajusta el margen superior para separar de la barra de búsqueda */
+  }
+  
+  
+ 
+  
+  
+  .search-button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    width: 150px; /* Ajusta el ancho según tus necesidades */
+    margin-right: 10px; /* Ajusta el valor según sea necesario para el espacio deseado */
+  }
+  
+  
+  .cart-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 490px;
+    right: 10px; 
+  }
+  
+  .cart-button i {
+    color: white;
+    font-size: 18px;
+  }
+  
+  .header-image {
+    width: 100%;
+    display: block;
+    margin-top: -10px; 
+  }
+  
+
+  
+  .fa {
+    color: white;
+    font-size: 18px;
+  }
+  
+  .image-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    padding: 20px;
+  }
+  
+  .overlay-title {
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+  }
+  
+  
+  
+  .search-button, .cart-button {
+   
+    transition: transform 0.3s; /* Añade una transición suave */
+  }
+  
+  .search-button:hover, .cart-button:hover {
+    transform: scale(1.1); /* Aplica un zoom del 10% al pasar el cursor */
+  }
+  
