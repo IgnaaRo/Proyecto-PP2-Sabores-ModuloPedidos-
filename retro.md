@@ -15,4 +15,4 @@ Principales conclusiones de la retro del segundo sprint.
 ## Stop Doing:
  - **Intentar que todos participen en todo el procedimiento.**
 # Observaciones:
-Al iniciar el Sprint 2, uno de los integrantes abandonó el curso, por lo cual se debió repensar la conformación del equipo. Se decidió dejar el grupo con los integrantes que quedaron asignando un tutor de apoyo aguardando el contacto del tutor. 
+Ninguna
