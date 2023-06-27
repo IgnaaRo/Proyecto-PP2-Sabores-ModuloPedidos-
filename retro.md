@@ -8,7 +8,6 @@ Principales conclusiones de la retro del segundo sprint.
  - **Optimizar tiempos de cada tarea.**
 ## Keep Doing:
  - **Comunicar avances e ideas.**
- - **Probar más implementaciones de Boostrap y Flexbox para optimizar líneas de código sin dejar de personalizarlas según los objetivos planteados y que no sean copias**.
 ## Less Off:
  - **Nuclear tareas en una misma persona.**
  - **Seguir probando código e implementaciones por fuera para evaluar su  adhesión en el código final.**
