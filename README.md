@@ -37,3 +37,8 @@ Dentro de la comida rapida tendremos:
 ___Lading Page___
 
 https://www.figma.com/file/oflpvLNWcId8Y49FnTUfFh/PP2-Proyecto-Sabores?type=design&node-id=0%3A1&t=wuvoHtjjrbrWfIyF-1
+
+_BackLog_
+
+https://trello.com/b/RJGC0MYF/backlogpedidos
+
