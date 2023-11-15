@@ -58,5 +58,5 @@ Comienzo --> http://localhost:8080/usuario/registro
 
 Para correr la app en local debemos configurar la url de conección a la base de datos y además hay que crear la base de datos "elbuensabor" con sus respectivas tablas "usuario,producto,pedido,detalle_pedido" con sus respectivos atributos. Una vez hecho eso , podrá registrarse como un "USUARIO" para hacer uso de la pagina de forma normal, eligiendo las comidas y viendo la cantidad de pedidos hechos en el local. Por otro lado, si quiere acceder como administrador deberá registrar un usuario como "admin" y cambiar desde la base de datos su rol por "ADMIN" , con ello podra modificar los productos , crearlos y eliminarlos.
 
-[![tabla-usuario.png](https://i.postimg.cc/wvpcpxHC/tabla-usuario.png)](https://postimg.cc/kVTtNm2s)
+[![tabla-usuario.png](https://i.postimg.cc/nzp7WdGZ/tabla-usuario.png)](https://postimg.cc/8FXjJmYn)
 
