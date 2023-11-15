@@ -1,5 +1,7 @@
 # Proyecto-PP2-Sabores-
 
+[![imagen.png](https://i.postimg.cc/qRWG5cqG/imagen.png)](https://postimg.cc/hzbxJd9J)
+
 ___Integrantes___
 
 Agustin Moyano
