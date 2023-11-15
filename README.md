@@ -42,3 +42,13 @@ _BackLog_
 
 https://trello.com/b/RJGC0MYF/backlogpedidos
 
+_BackLog-Jira_
+
+_Diagrama de Casos de uso_
+
+
+_Diagrama de clases_
+
+
+
+
