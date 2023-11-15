@@ -52,6 +52,6 @@ _Diagrama de Casos de uso_
 
 _Diagrama de clases_
 
-
+[![Diagrama-de-clases.png](https://i.postimg.cc/MGWRXfkY/Diagrama-de-clases.png)](https://postimg.cc/G45952mB)
 
 
