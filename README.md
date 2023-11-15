@@ -44,8 +44,11 @@ https://trello.com/b/RJGC0MYF/backlogpedidos
 
 _BackLog-Jira_
 
+https://ignaaro.atlassian.net/jira/software/projects/GRUPO2/boards/2/backlog?epics=visible
+
 _Diagrama de Casos de uso_
 
+[![Diagrama-de-CASOS-DE-USO.png](https://i.postimg.cc/mZqQVrMb/Diagrama-de-CASOS-DE-USO.png)](https://postimg.cc/dD2kVw4X)
 
 _Diagrama de clases_
 
