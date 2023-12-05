@@ -54,7 +54,7 @@ _Diagrama de Casos de uso_
 
 _Diagrama de clases_
 
-[![Diagrama-de-clases.png](https://i.postimg.cc/MGWRXfkY/Diagrama-de-clases.png)](https://postimg.cc/G45952mB)
+[![Diagrama-de-casos-de-uso-PP-II.png](https://i.postimg.cc/xjPrMZkK/Diagrama-de-casos-de-uso-PP-II.png)](https://postimg.cc/z33P10FB)
 
 # Instrucciones funcionamiento Backend
 
