@@ -50,11 +50,11 @@ https://ignaaro.atlassian.net/jira/software/projects/GRUPO2/boards/2/backlog?epi
 
 _Diagrama de Casos de uso_
 
-[![Diagrama-de-CASOS-DE-USO.png](https://i.postimg.cc/mZqQVrMb/Diagrama-de-CASOS-DE-USO.png)](https://postimg.cc/dD2kVw4X)
+[![Diagrama-de-casos-de-uso-PP-II.png](https://i.postimg.cc/xjPrMZkK/Diagrama-de-casos-de-uso-PP-II.png)](https://postimg.cc/z33P10FB)
 
 _Diagrama de clases_
 
-[![Diagrama-de-casos-de-uso-PP-II.png](https://i.postimg.cc/xjPrMZkK/Diagrama-de-casos-de-uso-PP-II.png)](https://postimg.cc/z33P10FB)
+
 
 # Instrucciones funcionamiento Backend
 
