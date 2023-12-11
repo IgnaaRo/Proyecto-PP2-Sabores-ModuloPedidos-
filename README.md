@@ -55,6 +55,9 @@ _Diagrama de Casos de uso_
 _Diagrama de clases_
 
 
+__Entidad-Relacion
+
+[![ENTIDAD-RELACION-TA.png](https://i.postimg.cc/44jd5RHt/ENTIDAD-RELACION-TA.png)](https://postimg.cc/QVkh8Pbx)
 
 # Instrucciones funcionamiento Backend
 
