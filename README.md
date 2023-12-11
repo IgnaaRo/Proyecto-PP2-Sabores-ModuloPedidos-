@@ -54,6 +54,7 @@ _Diagrama de Casos de uso_
 
 _Diagrama de clases_
 
+[![Diagrama-de-Clases-1.png](https://i.postimg.cc/WzD4VTtG/Diagrama-de-Clases-1.png)](https://postimg.cc/4HgGbC6y)
 
 _Entidad-Relacion_
 
